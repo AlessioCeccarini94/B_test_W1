@@ -16,8 +16,8 @@ public class Video extends PlayerMulti implements Volume, Brightness {
 
 	public void play() {
 
-		for (int i=0;i<bright;i++){
-			System.out.println(title + " * "+bright);
+		for (int i=0;i<volume;i++){
+			System.out.println(title + " * ".repeat(bright));
 		}
 	}
 

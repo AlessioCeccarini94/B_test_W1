@@ -10,7 +10,7 @@ public class Image extends PlayerMulti implements Brightness {
 	}
 	public void show(){
 		for (int i=0;i<bright;i++) {
-			System.out.println(title + " * ".repeat(bright));
+			System.out.println( " * ".repeat(bright));
 		}
 	}
 	public void play(){

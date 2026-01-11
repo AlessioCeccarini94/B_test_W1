@@ -13,8 +13,9 @@ public class Audio extends PlayerMulti implements Volume {
 
 	}
 	public void play() {
+
         for (int i =0; i<duration;i++) {
-			System.out.println(title + " ! " + volume);
+			System.out.println(title+"!".repeat(volume));
 		}
 	}
 
